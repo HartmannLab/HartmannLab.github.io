@@ -1,7 +1,14 @@
 ---
 ---
-
 @charset "utf-8";
+
+$theme-primary: #2dacdb;   // ✅ BEFORE the imports
+$theme-dark: #222;
+
+@import
+  "mixins",
+  "base"
+;
 
 // Example Defaults
 // $base-font-family: Helvetica, Arial, sans-serif;
@@ -32,14 +39,4 @@
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-
-// variables.less
-$theme-primary: #2dacdb;
-$theme-dark: #222;
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "mixins",
-        "base"
-;
 
