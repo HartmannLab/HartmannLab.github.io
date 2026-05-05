@@ -1,14 +1,15 @@
-# Creative Theme for Jekyll
+# Hartmann Lab Website
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+Official website for the Hartmann Lab — Systems Immunology and Single-Cell Biology at DKFZ Heidelberg.
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+🔗 [hartmannlab.github.io](https://hartmannlab.github.io)
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+## About
 
-## To use the Creative Theme template in your project
+This site was originally forked from [volny/creative-theme-jekyll](https://github.com/volny/creative-theme-jekyll) and has since been customised and detached as an independent repository.
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+Built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
 
+## Credits
+
+Website built and maintained by [@mirayycetin](https://github.com/mirayycetin).
