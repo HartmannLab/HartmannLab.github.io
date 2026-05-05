@@ -1,34 +1,105 @@
-<p style="margin-top: 30px;">
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scientific Program | Hartmann Lab</title>
+
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/animate.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+</head>
+
+<body>
+
+    {% include nav.html %}
+
+    <section style="padding-top: 120px; padding-bottom: 60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Scientific Program</h1>
+                    <hr class="primary">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <img src="{{ "/img/portfolio/scientific-program.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="Scientific Program" style="margin-bottom: 30px;">
+
+
+                    <h2>Program Overview</h2>
+                    <p>
+                        Our research program is structured around three interconnected pillars that together define a quantitative framework for Spatial Immunometabolism.
+                    </p>
+
+                    <h2>Research Areas</h2>
+
+                    <h3>1. Quantifying Metabolic States in Human Tissues</h3>
+                    <p>
+                        We develop and apply high-dimensional single-cell and spatial technologies to measure metabolic regulation directly in intact human tissues.
+                        Using antibody-based metabolic profiling, multiplexed imaging, and spatial mass spectrometry approaches, we quantify the metabolic states of immune, stromal, and malignant cells in situ. Rather than relying solely on transcriptional inference, we measure the regulatory protein networks that determine pathway activity and functional capacity.
+                        A central focus is the analysis of human clinical samples, where we investigate how spatially resolved metabolic states relate to tumor progression, immune dysfunction, and clinical outcome.
+                    </p>
+
+                    <h3>2. Computational Modeling of Metabolic Programs</h3>
+                    <p>
+                        Spatial single-cell data are inherently multimodal and high-dimensional. We develop computational frameworks that integrate metabolic state, cellular composition, and spatial organization into interpretable multicellular programs.
+                        Instead of analyzing individual markers in isolation, we identify coordinated metabolic and cellular patterns that define tumor–immune ecosystem states. Our goal is to transform complex spatial data into mechanistic and predictive models of tissue organization.
+                    </p>
+
+                    <h3>3. Mechanistic Dissection of Metabolic Niches</h3>
+                    <p>
+                        Quantitative mapping and modeling generate hypotheses about how metabolic interactions shape immune function. We test these hypotheses using patient-derived tumor organoids and ex vivo tissue systems.
+                        By genetically perturbing metabolic enzymes using CRISPR-based approaches, we examine how specific tumor or stromal metabolic programs influence T cell and macrophage function within controlled microenvironments.
+                        This allows us to move from correlation to causation and to define actionable metabolic interactions that may be therapeutically targeted.
+                    </p>
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-1.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="FFPE block" style="margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-2.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="MIBI slide" style="margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-3.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="Cut FFPE" style="margin-bottom: 15px;">
+                        </div>
+                    </div>
+                    <p style="margin-top: 30px;">
                         <a href="{{ site.baseurl }}/#portfolio" class="btn btn-primary btn-xl">Back to Portfolio</a>
                     </p>
+                                 <h2>Why Spatial Immunometabolism Matters</h2>
+            <p>Immune cells operate in metabolically constrained environments.</p>
+            <p>Tumors exploit nutrient competition, hypoxia, and metabolite signaling to suppress immunity.</p>
+            <p>Current immunotherapies often fail because these metabolic barriers remain poorly understood and insufficiently targeted.</p>
+            <p>By quantifying metabolic regulation directly in tissues, we aim to:</p>
+            <ul>
+    <li>Reveal mechanisms of immune dysfunction</li>
+    <li>Identify predictive biomarkers of therapeutic response</li>
+    <li>Inform rational metabolic interventions in cancer</li>
+</ul>
+             <h2>Selected Recognition & Funding</h2>
+            <p>Our research is supported by competitive national and international funding, including:</p>
+            <ul>
+    <li>European Research Council (ERC Starting Grant 2023)</li>
+    <li>Helmholtz Young Investigator Program</li>
+    <li>DKTK (German Cancer Consortium)</li>
+    <li>Foundation and industry-supported research initiatives</li>
+</ul>
+ <p>These awards support a long-term program to establish quantitative spatial immunometabolism as a central framework in cancer research.:</p>
                 </div>
             </div>
-
-            <!-- ✅ new content INSIDE the container, in its own row -->
-            <div class="row" style="margin-top: 40px;">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Why Spatial Immunometabolism Matters</h2>
-                    <p>Immune cells operate in metabolically constrained environments.</p>
-                    <p>Tumors exploit nutrient competition, hypoxia, and metabolite signaling to suppress immunity.</p>
-                    <p>Current immunotherapies often fail because these metabolic barriers remain poorly understood and insufficiently targeted.</p>
-                    <p>By quantifying metabolic regulation directly in tissues, we aim to:</p>
-                    <ul>
-                        <li>Reveal mechanisms of immune dysfunction</li>
-                        <li>Identify predictive biomarkers of therapeutic response</li>
-                        <li>Inform rational metabolic interventions in cancer</li>
-                    </ul>
-
-                    <h2>Selected Recognition & Funding</h2>
-                    <p>Our research is supported by competitive national and international funding, including:</p>
-                    <ul>
-                        <li>European Research Council (ERC Starting Grant 2023)</li>
-                        <li>Helmholtz Young Investigator Program</li>
-                        <li>DKTK (German Cancer Consortium)</li>
-                        <li>Foundation and industry-supported research initiatives</li>
-                    </ul>
-                    <p>These awards support a long-term program to establish quantitative spatial immunometabolism as a central framework in cancer research.</p>
-                </div>
-            </div>
-
         </div>
+
     </section>
+
+    {% include scripts.html %}
+
+</body>
+</html>
