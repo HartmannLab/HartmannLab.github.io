@@ -31,7 +31,8 @@ layout: null
 
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <img src="img/portfolio/scientific-program.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="Scientific Program" style="margin-bottom: 30px;">
+                    <img src="{{ "/img/portfolio/scientific-program.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="Scientific Program" style="margin-bottom: 30px;">
+
 
                     <h2>Program Overview</h2>
                     <p>
@@ -59,7 +60,17 @@ layout: null
                         By genetically perturbing metabolic enzymes using CRISPR-based approaches, we examine how specific tumor or stromal metabolic programs influence T cell and macrophage function within controlled microenvironments.
                         This allows us to move from correlation to causation and to define actionable metabolic interactions that may be therapeutically targeted.
                     </p>
-
+                    <div class="row" style="margin-top: 30px;">
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-1.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="FFPE block" style="margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-2.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="MIBI slide" style="margin-bottom: 15px;">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{ "/img/portfolio/image-3.jpg" | prepend: site.baseurl }}" class="img-responsive" alt="Cut FFPE" style="margin-bottom: 15px;">
+                        </div>
+                    </div>
                     <p style="margin-top: 30px;">
                         <a href="{{ site.baseurl }}/#portfolio" class="btn btn-primary btn-xl">Back to Portfolio</a>
                     </p>
