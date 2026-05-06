@@ -126,21 +126,21 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+            background-color: darken($theme-primary, 30%);
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: white;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: rgba(white, .8);
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: white;
                 &:hover {
-                    color: $theme-primary;
+                    color: rgba(white, .8);
                 }
             }
         }
