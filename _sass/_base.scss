@@ -70,18 +70,18 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: darken($theme-primary, 30%);  // ← change from white
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: white;                    // ← change from $theme-primary
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: rgba(white, .8);      // ← update hover
         }
     }
     .nav {
@@ -91,9 +91,9 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: white;            // ← change from $theme-dark
                 &:hover {
-                    color: $theme-primary;
+                    color: rgba(white, .8);  // ← update hover
                 }
             }
             &.active {
