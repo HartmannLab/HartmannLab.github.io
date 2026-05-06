@@ -1,56 +1,37 @@
 ---
 layout: null
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Public Engagement | Hartmann Lab</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/creative.css">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/animate.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 </head>
 
 <body>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    {% include nav.html %}
 
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Hartmann Lab</a>
-            </div>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#services">Useful Links</a></li>
-                <li><a href="index.html#portfolio">Portfolio</a></li>
-                <li><a href="scientific-program.html">Scientific Program</a></li>
-                <li><a href="current-members.html">Current Members</a></li>
-                <li><a href="training-mentorship.html">Training &amp; Mentorship</a></li>
-                <li><a href="public-engagement.html">Public Engagement</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-
-        </div>
-    </nav>
-
-    <section style="padding-top: 120px;">
+    <section style="padding-top: 120px; padding-bottom: 60px;">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Public Engagement</h1>
                     <hr class="primary">
-                    <p class="text-muted">
-                        Sharing science with the public, patients, students, and the wider community.
-                    </p>
                 </div>
             </div>
 
-            <div class="row" style="margin-top: 40px;">
+            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <img src="img/portfolio/public-engagement.jpg" class="img-responsive" alt="Public Engagement">
+                    <img src="{{ "img/portfolio/public-engagement.jpg"  | prepend: site.baseurl }}" class="img-responsive" alt="Public Engagement" style="margin-bottom: 30px;">
 
                     <p>
                         We are committed to communicating our research beyond academia and contributing to public understanding of cancer immunology and metabolism. 
@@ -102,7 +83,7 @@ layout: null
 
 
                     <p style="margin-top: 30px;">
-                        <a href="index.html#portfolio" class="btn btn-primary">Back to Portfolio</a>
+                        <a href="index.html#portfolio" class="btn btn-primary">Back to Main Page</a>
                     </p>
                 </div>
             </div>
